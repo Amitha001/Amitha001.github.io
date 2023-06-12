@@ -12,11 +12,11 @@ body {
     font-size: 12pt;
     max-width: 800px; 
     min-width: 800px; 
-    text-align: left;
     margin-left: 20px;
     margin-right: 20px;
     font-family: 'Linux Libertine';
     line-height: 20px;
+    text-align: justify;
 }
 
 a {
@@ -38,11 +38,17 @@ a {
 ul {
     line-height: 20px;
     list-style: square;
+    text-align: justify;
 }
 
 
 li {
     line-height: 25px;
+    text-align: justify;
+}
+
+p {
+    text-align: justify;
 }
 
 
@@ -57,4 +63,6 @@ img {
 
 h3 {
     font-variant: small-caps;
+    text-align: justify;
 }
+
